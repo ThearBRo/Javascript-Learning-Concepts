@@ -34,6 +34,7 @@ class Linklist {
 }
 
 const list = new Linklist();
+
 list.append(5);
 list.append(10);
 list.append(20);
