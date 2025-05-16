@@ -1,28 +1,26 @@
-/// DELETING VOWEL LETTER FROM SENTENCE
-
-/// In working
-const letter = "THis is the website for loser";
-
-function disemvowel(str) {
-  //   const newStr = str.split("");
-  //   const new2str = newStr.join("");
-  const vowel = ["a", "e", "i", "o", "u"];
-  const strnow = str.split("");
-  for (i = 0; i < strnow.length; i++) {
-    if (strnow[i] == vowel) {
-      const newstr = strnow[i].splice(vowel);
+function allFriend(friends) {
+  for (i = 0; i < friends.length; i++) {
+    if (friends[i].length != 4 && friends[i] != Number) {
+      console.log([]);
+    } else {
+      const yourFriend = [];
+      yourFriend.forEach((ele) => {
+        ele + friends[i];
+      });
+      console.log(yourFriend);
     }
-    return newstr;
   }
-  return console.log(newstr);
 }
 
-disemvowel("bonjoiur toute le monded");
+allFriend(["Thearith", "Thearo", "theara", "brain", "lucy", "ryan", "hood"]);
 
-// function disemvowel(str) {
-//   const vowel = ["a", "e", "i", "o", "u"];
-
-//   for ( i = 0;  i < str.length; i ++) {
-//     if( str )
+// function allFriend(friends) {
+//   for (i = 0; i < friends.length; i++) {
+//     if (friends[i].length != 4) {
+//     } else {
+//       const friend = [];
+//       friend.push(friends[i]);
+//     }
 //   }
 // }
+// console.log(["Ryan", "Kieran", "Jason", "Yous"]);
